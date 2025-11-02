@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "input": "Le Bistro Français",
+    "output": "{\"restaurant\":\"Le Bistro Français\",\"location\":\"789 King St E, Toronto, ON M5A 1M2\",\"parking_availability\":\"Underground parking - $5/hour (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Coq au Vin\",\"Escargot\",\"Crème Brûlée\"],\"cuisines\":[\"French\"],\"ambience\":\"Elegant, romantic with soft lighting\"}",
+    "timestamp": "2025-11-02T03:00:10.245796"
+  },
+  {
+    "id": 2,
+    "input": "Burger Barn",
+    "output": "{\"restaurant\":\"Burger Barn\",\"location\":\"777 Yonge St, Toronto, ON M4Y 2B6\",\"parking_availability\":\"Unavailable at the moment\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Classic Burger\",\"Sweet Potato Fries\",\"Milkshake\"],\"cuisines\":[\"American\",\"Burgers\"],\"ambience\":\"Retro diner style with vinyl booths\"}",
+    "timestamp": "2025-11-02T03:00:10.246097"
+  },
+  {
+    "id": 3,
+    "input": "Spice Route",
+    "output": "{\"restaurant\":\"Spice Route\",\"location\":\"321 Bloor St, Toronto, ON M5S 1V8\",\"parking_availability\":\"Valet parking available (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Butter Chicken\",\"Lamb Biryani\",\"Garlic Naan\"],\"cuisines\":[\"Indian\",\"North Indian\"],\"ambience\":\"Vibrant, colorful with traditional decor\"}",
+    "timestamp": "2025-11-02T03:00:10.246147"
+  },
+  {
+    "id": 4,
+    "input": "Green Garden Café",
+    "output": "{\"restaurant\":\"Green Garden Café\",\"location\":\"222 College St, Toronto, ON M5T 1R9\",\"parking_availability\":\"Limited - 3 spots remaining (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Quinoa Bowl\",\"Avocado Toast\",\"Acai Bowl\"],\"cuisines\":[\"Vegan\",\"Vegetarian\",\"Healthy\"],\"ambience\":\"Bright, airy with plants and natural wood\"}",
+    "timestamp": "2025-11-02T03:00:10.246186"
+  },
+  {
+    "id": 5,
+    "input": "Burger Barn",
+    "output": "{\"restaurant\":\"Burger Barn\",\"location\":\"777 Yonge St, Toronto, ON M4Y 2B6\",\"parking_availability\":\"Parking garage adjacent (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Classic Burger\",\"Sweet Potato Fries\",\"Milkshake\"],\"cuisines\":[\"American\",\"Burgers\"],\"ambience\":\"Retro diner style with vinyl booths\"}",
+    "timestamp": "2025-11-02T03:00:10.246227"
+  },
+  {
+    "id": 6,
+    "input": "Sushi Haven",
+    "output": "{\"restaurant\":\"Sushi Haven\",\"location\":\"456 Queen St W, Toronto, ON M5V 2A8\",\"parking_availability\":\"Free parking after 6pm (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Dragon Roll\",\"Salmon Sashimi\",\"Miso Soup\"],\"cuisines\":[\"Japanese\",\"Sushi\"],\"ambience\":\"Modern, minimalist with zen aesthetics\"}",
+    "timestamp": "2025-11-02T03:00:10.246260"
+  },
+  {
+    "id": 7,
+    "input": "Mediterranean Breeze",
+    "output": "{\"restaurant\":\"Mediterranean Breeze\",\"location\":\"444 Harbord St, Toronto, ON M6G 1H4\",\"parking_availability\":\"Limited - 3 spots remaining (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Lamb Souvlaki\",\"Greek Salad\",\"Baklava\"],\"cuisines\":[\"Mediterranean\",\"Greek\"],\"ambience\":\"Coastal-inspired with blue and white decor\"}",
+    "timestamp": "2025-11-02T03:00:10.246291"
+  },
+  {
+    "id": 8,
+    "input": "Mediterranean Breeze",
+    "output": "{\"restaurant\":\"Mediterranean Breeze\",\"location\":\"444 Harbord St, Toronto, ON M6G 1H4\",\"parking_availability\":\"Free parking after 6pm (live)\",\"availability_restaurant\":\"Unavailable at the moment\",\"top_3_dishes\":[\"Lamb Souvlaki\",\"Greek Salad\",\"Baklava\"],\"cuisines\":[\"Mediterranean\",\"Greek\"],\"ambience\":\"Coastal-inspired with blue and white decor\"}",
+    "timestamp": "2025-11-02T03:00:10.246796"
+  },
+  {
+    "id": 9,
+    "input": "Burger Barn",
+    "output": "{\"restaurant\":\"Burger Barn\",\"location\":\"777 Yonge St, Toronto, ON M4Y 2B6\",\"parking_availability\":\"Available now - 15 spots (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Classic Burger\",\"Sweet Potato Fries\",\"Milkshake\"],\"cuisines\":[\"American\",\"Burgers\"],\"ambience\":\"Retro diner style with vinyl booths\"}",
+    "timestamp": "2025-11-02T03:00:10.246860"
+  },
+  {
+    "id": 10,
+    "input": "Mediterranean Breeze",
+    "output": "{\"restaurant\":\"Mediterranean Breeze\",\"location\":\"444 Harbord St, Toronto, ON M6G 1H4\",\"parking_availability\":\"Limited - 3 spots remaining (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Lamb Souvlaki\",\"Greek Salad\",\"Baklava\"],\"cuisines\":[\"Mediterranean\",\"Greek\"],\"ambience\":\"Coastal-inspired with blue and white decor\"}",
+    "timestamp": "2025-11-02T03:00:10.246901"
+  },
+  {
+    "id": 11,
+    "input": "Sushi Haven",
+    "output": "{\"restaurant\":\"Sushi Haven\",\"location\":\"456 Queen St W, Toronto, ON M5V 2A8\",\"parking_availability\":\"Available now - 15 spots (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Dragon Roll\",\"Salmon Sashimi\",\"Miso Soup\"],\"cuisines\":[\"Japanese\",\"Sushi\"],\"ambience\":\"Modern, minimalist with zen aesthetics\"}",
+    "timestamp": "2025-11-02T03:00:10.246933"
+  },
+  {
+    "id": 12,
+    "input": "Spice Route",
+    "output": "{\"restaurant\":\"Spice Route\",\"location\":\"321 Bloor St, Toronto, ON M5S 1V8\",\"parking_availability\":\"Valet parking available (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Butter Chicken\",\"Lamb Biryani\",\"Garlic Naan\"],\"cuisines\":[\"Indian\",\"North Indian\"],\"ambience\":\"Vibrant, colorful with traditional decor\"}",
+    "timestamp": "2025-11-02T03:00:10.246962"
+  },
+  {
+    "id": 13,
+    "input": "Mediterranean Breeze",
+    "output": "{\"restaurant\":\"Mediterranean Breeze\",\"location\":\"444 Harbord St, Toronto, ON M6G 1H4\",\"parking_availability\":\"Unavailable at the moment\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Lamb Souvlaki\",\"Greek Salad\",\"Baklava\"],\"cuisines\":[\"Mediterranean\",\"Greek\"],\"ambience\":\"Coastal-inspired with blue and white decor\"}",
+    "timestamp": "2025-11-02T03:00:10.247175"
+  },
+  {
+    "id": 14,
+    "input": "Pizza Place XYZ",
+    "output": "{\"restaurant\":\"Pizza Place XYZ\",\"location\":\"123 Main St, Toronto, ON M5H 2N2\",\"parking_availability\":\"Underground parking - $5/hour (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Margherita Pizza\",\"Truffle Fries\",\"Tiramisu\"],\"cuisines\":[\"Italian\"],\"ambience\":\"Casual, family-friendly\"}",
+    "timestamp": "2025-11-02T03:00:10.247212"
+  },
+  {
+    "id": 15,
+    "input": "Mediterranean Breeze",
+    "output": "{\"restaurant\":\"Mediterranean Breeze\",\"location\":\"444 Harbord St, Toronto, ON M6G 1H4\",\"parking_availability\":\"Limited - 3 spots remaining (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Lamb Souvlaki\",\"Greek Salad\",\"Baklava\"],\"cuisines\":[\"Mediterranean\",\"Greek\"],\"ambience\":\"Coastal-inspired with blue and white decor\"}",
+    "timestamp": "2025-11-02T03:00:10.247247"
+  },
+  {
+    "id": 16,
+    "input": "Spice Route",
+    "output": "{\"restaurant\":\"Spice Route\",\"location\":\"321 Bloor St, Toronto, ON M5S 1V8\",\"parking_availability\":\"Free parking after 6pm (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Butter Chicken\",\"Lamb Biryani\",\"Garlic Naan\"],\"cuisines\":[\"Indian\",\"North Indian\"],\"ambience\":\"Vibrant, colorful with traditional decor\"}",
+    "timestamp": "2025-11-02T03:00:10.247276"
+  },
+  {
+    "id": 17,
+    "input": "Spice Route",
+    "output": "{\"restaurant\":\"Spice Route\",\"location\":\"321 Bloor St, Toronto, ON M5S 1V8\",\"parking_availability\":\"Underground parking - $5/hour (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Butter Chicken\",\"Lamb Biryani\",\"Garlic Naan\"],\"cuisines\":[\"Indian\",\"North Indian\"],\"ambience\":\"Vibrant, colorful with traditional decor\"}",
+    "timestamp": "2025-11-02T03:00:10.247303"
+  },
+  {
+    "id": 18,
+    "input": "Pizza Place XYZ",
+    "output": "{\"restaurant\":\"Pizza Place XYZ\",\"location\":\"123 Main St, Toronto, ON M5H 2N2\",\"parking_availability\":\"Parking garage adjacent (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Margherita Pizza\",\"Truffle Fries\",\"Tiramisu\"],\"cuisines\":[\"Italian\"],\"ambience\":\"Casual, family-friendly\"}",
+    "timestamp": "2025-11-02T03:00:10.247328"
+  },
+  {
+    "id": 19,
+    "input": "Mediterranean Breeze",
+    "output": "{\"restaurant\":\"Mediterranean Breeze\",\"location\":\"444 Harbord St, Toronto, ON M6G 1H4\",\"parking_availability\":\"Underground parking - $5/hour (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Lamb Souvlaki\",\"Greek Salad\",\"Baklava\"],\"cuisines\":[\"Mediterranean\",\"Greek\"],\"ambience\":\"Coastal-inspired with blue and white decor\"}",
+    "timestamp": "2025-11-02T03:00:10.247358"
+  },
+  {
+    "id": 20,
+    "input": "Le Bistro Français",
+    "output": "{\"restaurant\":\"Le Bistro Français\",\"location\":\"789 King St E, Toronto, ON M5A 1M2\",\"parking_availability\":\"Valet parking available (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Coq au Vin\",\"Escargot\",\"Crème Brûlée\"],\"cuisines\":[\"French\"],\"ambience\":\"Elegant, romantic with soft lighting\"}",
+    "timestamp": "2025-11-02T03:00:10.247394"
+  },
+  {
+    "id": 21,
+    "input": "Pizza Place XYZ",
+    "output": "{\"restaurant\":\"Pizza Place XYZ\",\"location\":\"123 Main St, Toronto, ON M5H 2N2\",\"parking_availability\":\"Available now - 8 spots (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Margherita Pizza\",\"Truffle Fries\",\"Tiramisu\"],\"cuisines\":[\"Italian\"],\"ambience\":\"Casual, family-friendly\"}",
+    "timestamp": "2025-11-02T03:00:10.247420"
+  },
+  {
+    "id": 22,
+    "input": "Green Garden Café",
+    "output": "{\"restaurant\":\"Green Garden Café\",\"location\":\"222 College St, Toronto, ON M5T 1R9\",\"parking_availability\":\"Underground parking - $5/hour (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Quinoa Bowl\",\"Avocado Toast\",\"Acai Bowl\"],\"cuisines\":[\"Vegan\",\"Vegetarian\",\"Healthy\"],\"ambience\":\"Bright, airy with plants and natural wood\"}",
+    "timestamp": "2025-11-02T03:00:10.247451"
+  },
+  {
+    "id": 23,
+    "input": "Mediterranean Breeze",
+    "output": "{\"restaurant\":\"Mediterranean Breeze\",\"location\":\"444 Harbord St, Toronto, ON M6G 1H4\",\"parking_availability\":\"Underground parking - $5/hour (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Lamb Souvlaki\",\"Greek Salad\",\"Baklava\"],\"cuisines\":[\"Mediterranean\",\"Greek\"],\"ambience\":\"Coastal-inspired with blue and white decor\"}",
+    "timestamp": "2025-11-02T03:00:10.247480"
+  },
+  {
+    "id": 24,
+    "input": "Spice Route",
+    "output": "{\"restaurant\":\"Spice Route\",\"location\":\"321 Bloor St, Toronto, ON M5S 1V8\",\"parking_availability\":\"Parking garage adjacent (live)\",\"availability_restaurant\":\"Unavailable at the moment\",\"top_3_dishes\":[\"Butter Chicken\",\"Lamb Biryani\",\"Garlic Naan\"],\"cuisines\":[\"Indian\",\"North Indian\"],\"ambience\":\"Vibrant, colorful with traditional decor\"}",
+    "timestamp": "2025-11-02T03:00:10.247664"
+  },
+  {
+    "id": 25,
+    "input": "Le Bistro Français",
+    "output": "{\"restaurant\":\"Le Bistro Français\",\"location\":\"789 King St E, Toronto, ON M5A 1M2\",\"parking_availability\":\"Parking garage adjacent (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Coq au Vin\",\"Escargot\",\"Crème Brûlée\"],\"cuisines\":[\"French\"],\"ambience\":\"Elegant, romantic with soft lighting\"}",
+    "timestamp": "2025-11-02T03:00:10.247707"
+  },
+  {
+    "id": 26,
+    "input": "Pizza Place XYZ",
+    "output": "{\"restaurant\":\"Pizza Place XYZ\",\"location\":\"123 Main St, Toronto, ON M5H 2N2\",\"parking_availability\":\"Valet parking available (live)\",\"availability_restaurant\":\"Unavailable at the moment\",\"top_3_dishes\":[\"Margherita Pizza\",\"Truffle Fries\",\"Tiramisu\"],\"cuisines\":[\"Italian\"],\"ambience\":\"Casual, family-friendly\"}",
+    "timestamp": "2025-11-02T03:00:10.247879"
+  },
+  {
+    "id": 27,
+    "input": "The Steakhouse",
+    "output": "{\"restaurant\":\"The Steakhouse\",\"location\":\"555 Bay St, Toronto, ON M5G 2C2\",\"parking_availability\":\"Available now - 8 spots (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Ribeye Steak\",\"Lobster Tail\",\"Caesar Salad\"],\"cuisines\":[\"Steakhouse\",\"American\"],\"ambience\":\"Upscale, dimly lit with leather seating\"}",
+    "timestamp": "2025-11-02T03:00:10.247929"
+  },
+  {
+    "id": 28,
+    "input": "Spice Route",
+    "output": "{\"restaurant\":\"Spice Route\",\"location\":\"321 Bloor St, Toronto, ON M5S 1V8\",\"parking_availability\":\"Unavailable at the moment\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Butter Chicken\",\"Lamb Biryani\",\"Garlic Naan\"],\"cuisines\":[\"Indian\",\"North Indian\"],\"ambience\":\"Vibrant, colorful with traditional decor\"}",
+    "timestamp": "2025-11-02T03:00:10.248163"
+  },
+  {
+    "id": 29,
+    "input": "Taco Fiesta",
+    "output": "{\"restaurant\":\"Taco Fiesta\",\"location\":\"888 Dundas St W, Toronto, ON M6J 1V5\",\"parking_availability\":\"Limited - 3 spots remaining (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Fish Tacos\",\"Carne Asada\",\"Churros\"],\"cuisines\":[\"Mexican\",\"Latin American\"],\"ambience\":\"Lively, colorful with festive atmosphere\"}",
+    "timestamp": "2025-11-02T03:00:10.248232"
+  },
+  {
+    "id": 30,
+    "input": "Pizza Place XYZ",
+    "output": "{\"restaurant\":\"Pizza Place XYZ\",\"location\":\"123 Main St, Toronto, ON M5H 2N2\",\"parking_availability\":\"Free parking after 6pm (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Margherita Pizza\",\"Truffle Fries\",\"Tiramisu\"],\"cuisines\":[\"Italian\"],\"ambience\":\"Casual, family-friendly\"}",
+    "timestamp": "2025-11-02T03:00:10.248282"
+  },
+  {
+    "id": 31,
+    "input": "The Steakhouse",
+    "output": "{\"restaurant\":\"The Steakhouse\",\"location\":\"555 Bay St, Toronto, ON M5G 2C2\",\"parking_availability\":\"Limited - 3 spots remaining (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Ribeye Steak\",\"Lobster Tail\",\"Caesar Salad\"],\"cuisines\":[\"Steakhouse\",\"American\"],\"ambience\":\"Upscale, dimly lit with leather seating\"}",
+    "timestamp": "2025-11-02T03:00:10.248329"
+  },
+  {
+    "id": 32,
+    "input": "Burger Barn",
+    "output": "{\"restaurant\":\"Burger Barn\",\"location\":\"777 Yonge St, Toronto, ON M4Y 2B6\",\"parking_availability\":\"Limited - 3 spots remaining (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Classic Burger\",\"Sweet Potato Fries\",\"Milkshake\"],\"cuisines\":[\"American\",\"Burgers\"],\"ambience\":\"Retro diner style with vinyl booths\"}",
+    "timestamp": "2025-11-02T03:00:10.248403"
+  },
+  {
+    "id": 33,
+    "input": "Pizza Place XYZ",
+    "output": "{\"restaurant\":\"Pizza Place XYZ\",\"location\":\"123 Main St, Toronto, ON M5H 2N2\",\"parking_availability\":\"Valet parking available (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Margherita Pizza\",\"Truffle Fries\",\"Tiramisu\"],\"cuisines\":[\"Italian\"],\"ambience\":\"Casual, family-friendly\"}",
+    "timestamp": "2025-11-02T03:00:10.248460"
+  },
+  {
+    "id": 34,
+    "input": "Dragon Wok",
+    "output": "{\"restaurant\":\"Dragon Wok\",\"location\":\"999 Spadina Ave, Toronto, ON M5S 2J5\",\"parking_availability\":\"Valet parking available (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Peking Duck\",\"Kung Pao Chicken\",\"Dumplings\"],\"cuisines\":[\"Chinese\",\"Cantonese\"],\"ambience\":\"Traditional with red lanterns and wooden decor\"}",
+    "timestamp": "2025-11-02T03:00:10.248517"
+  },
+  {
+    "id": 35,
+    "input": "Dragon Wok",
+    "output": "{\"restaurant\":\"Dragon Wok\",\"location\":\"999 Spadina Ave, Toronto, ON M5S 2J5\",\"parking_availability\":\"Underground parking - $5/hour (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Peking Duck\",\"Kung Pao Chicken\",\"Dumplings\"],\"cuisines\":[\"Chinese\",\"Cantonese\"],\"ambience\":\"Traditional with red lanterns and wooden decor\"}",
+    "timestamp": "2025-11-02T03:00:10.248581"
+  },
+  {
+    "id": 36,
+    "input": "Le Bistro Français",
+    "output": "{\"restaurant\":\"Le Bistro Français\",\"location\":\"789 King St E, Toronto, ON M5A 1M2\",\"parking_availability\":\"Free parking after 6pm (live)\",\"availability_restaurant\":\"Unavailable at the moment\",\"top_3_dishes\":[\"Coq au Vin\",\"Escargot\",\"Crème Brûlée\"],\"cuisines\":[\"French\"],\"ambience\":\"Elegant, romantic with soft lighting\"}",
+    "timestamp": "2025-11-02T03:00:10.248896"
+  },
+  {
+    "id": 37,
+    "input": "Green Garden Café",
+    "output": "{\"restaurant\":\"Green Garden Café\",\"location\":\"222 College St, Toronto, ON M5T 1R9\",\"parking_availability\":\"Available now - 8 spots (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Quinoa Bowl\",\"Avocado Toast\",\"Acai Bowl\"],\"cuisines\":[\"Vegan\",\"Vegetarian\",\"Healthy\"],\"ambience\":\"Bright, airy with plants and natural wood\"}",
+    "timestamp": "2025-11-02T03:00:10.248981"
+  },
+  {
+    "id": 38,
+    "input": "Pizza Place XYZ",
+    "output": "{\"restaurant\":\"Pizza Place XYZ\",\"location\":\"123 Main St, Toronto, ON M5H 2N2\",\"parking_availability\":\"Full - Street parking 2 blocks away (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Margherita Pizza\",\"Truffle Fries\",\"Tiramisu\"],\"cuisines\":[\"Italian\"],\"ambience\":\"Casual, family-friendly\"}",
+    "timestamp": "2025-11-02T03:00:10.249041"
+  },
+  {
+    "id": 39,
+    "input": "Pizza Place XYZ",
+    "output": "{\"restaurant\":\"Pizza Place XYZ\",\"location\":\"123 Main St, Toronto, ON M5H 2N2\",\"parking_availability\":\"Full - Street parking 2 blocks away (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Margherita Pizza\",\"Truffle Fries\",\"Tiramisu\"],\"cuisines\":[\"Italian\"],\"ambience\":\"Casual, family-friendly\"}",
+    "timestamp": "2025-11-02T03:00:10.249102"
+  },
+  {
+    "id": 40,
+    "input": "Mediterranean Breeze",
+    "output": "{\"restaurant\":\"Mediterranean Breeze\",\"location\":\"444 Harbord St, Toronto, ON M6G 1H4\",\"parking_availability\":\"Full - Street parking 2 blocks away (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Lamb Souvlaki\",\"Greek Salad\",\"Baklava\"],\"cuisines\":[\"Mediterranean\",\"Greek\"],\"ambience\":\"Coastal-inspired with blue and white decor\"}",
+    "timestamp": "2025-11-02T03:00:10.249139"
+  },
+  {
+    "id": 41,
+    "input": "Spice Route",
+    "output": "{\"restaurant\":\"Spice Route\",\"location\":\"321 Bloor St, Toronto, ON M5S 1V8\",\"parking_availability\":\"Valet parking available (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Butter Chicken\",\"Lamb Biryani\",\"Garlic Naan\"],\"cuisines\":[\"Indian\",\"North Indian\"],\"ambience\":\"Vibrant, colorful with traditional decor\"}",
+    "timestamp": "2025-11-02T03:00:10.249168"
+  },
+  {
+    "id": 42,
+    "input": "Mediterranean Breeze",
+    "output": "{\"restaurant\":\"Mediterranean Breeze\",\"location\":\"444 Harbord St, Toronto, ON M6G 1H4\",\"parking_availability\":\"Limited - 3 spots remaining (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Lamb Souvlaki\",\"Greek Salad\",\"Baklava\"],\"cuisines\":[\"Mediterranean\",\"Greek\"],\"ambience\":\"Coastal-inspired with blue and white decor\"}",
+    "timestamp": "2025-11-02T03:00:10.249198"
+  },
+  {
+    "id": 43,
+    "input": "Burger Barn",
+    "output": "{\"restaurant\":\"Burger Barn\",\"location\":\"777 Yonge St, Toronto, ON M4Y 2B6\",\"parking_availability\":\"Parking garage adjacent (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Classic Burger\",\"Sweet Potato Fries\",\"Milkshake\"],\"cuisines\":[\"American\",\"Burgers\"],\"ambience\":\"Retro diner style with vinyl booths\"}",
+    "timestamp": "2025-11-02T03:00:10.249225"
+  },
+  {
+    "id": 44,
+    "input": "Sushi Haven",
+    "output": "{\"restaurant\":\"Sushi Haven\",\"location\":\"456 Queen St W, Toronto, ON M5V 2A8\",\"parking_availability\":\"Parking garage adjacent (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Dragon Roll\",\"Salmon Sashimi\",\"Miso Soup\"],\"cuisines\":[\"Japanese\",\"Sushi\"],\"ambience\":\"Modern, minimalist with zen aesthetics\"}",
+    "timestamp": "2025-11-02T03:00:10.249263"
+  },
+  {
+    "id": 45,
+    "input": "Mediterranean Breeze",
+    "output": "{\"restaurant\":\"Mediterranean Breeze\",\"location\":\"444 Harbord St, Toronto, ON M6G 1H4\",\"parking_availability\":\"Unavailable at the moment\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Lamb Souvlaki\",\"Greek Salad\",\"Baklava\"],\"cuisines\":[\"Mediterranean\",\"Greek\"],\"ambience\":\"Coastal-inspired with blue and white decor\"}",
+    "timestamp": "2025-11-02T03:00:10.249479"
+  },
+  {
+    "id": 46,
+    "input": "Green Garden Café",
+    "output": "{\"restaurant\":\"Green Garden Café\",\"location\":\"222 College St, Toronto, ON M5T 1R9\",\"parking_availability\":\"Valet parking available (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Quinoa Bowl\",\"Avocado Toast\",\"Acai Bowl\"],\"cuisines\":[\"Vegan\",\"Vegetarian\",\"Healthy\"],\"ambience\":\"Bright, airy with plants and natural wood\"}",
+    "timestamp": "2025-11-02T03:00:10.249517"
+  },
+  {
+    "id": 47,
+    "input": "Taco Fiesta",
+    "output": "{\"restaurant\":\"Taco Fiesta\",\"location\":\"888 Dundas St W, Toronto, ON M6J 1V5\",\"parking_availability\":\"Limited - 3 spots remaining (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Fish Tacos\",\"Carne Asada\",\"Churros\"],\"cuisines\":[\"Mexican\",\"Latin American\"],\"ambience\":\"Lively, colorful with festive atmosphere\"}",
+    "timestamp": "2025-11-02T03:00:10.249548"
+  },
+  {
+    "id": 48,
+    "input": "Spice Route",
+    "output": "{\"restaurant\":\"Spice Route\",\"location\":\"321 Bloor St, Toronto, ON M5S 1V8\",\"parking_availability\":\"Limited - 3 spots remaining (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Butter Chicken\",\"Lamb Biryani\",\"Garlic Naan\"],\"cuisines\":[\"Indian\",\"North Indian\"],\"ambience\":\"Vibrant, colorful with traditional decor\"}",
+    "timestamp": "2025-11-02T03:00:10.249574"
+  },
+  {
+    "id": 49,
+    "input": "Mediterranean Breeze",
+    "output": "{\"restaurant\":\"Mediterranean Breeze\",\"location\":\"444 Harbord St, Toronto, ON M6G 1H4\",\"parking_availability\":\"Limited - 3 spots remaining (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Lamb Souvlaki\",\"Greek Salad\",\"Baklava\"],\"cuisines\":[\"Mediterranean\",\"Greek\"],\"ambience\":\"Coastal-inspired with blue and white decor\"}",
+    "timestamp": "2025-11-02T03:00:10.249603"
+  },
+  {
+    "id": 50,
+    "input": "Pizza Place XYZ",
+    "output": "{\"restaurant\":\"Pizza Place XYZ\",\"location\":\"123 Main St, Toronto, ON M5H 2N2\",\"parking_availability\":\"Unavailable at the moment\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Margherita Pizza\",\"Truffle Fries\",\"Tiramisu\"],\"cuisines\":[\"Italian\"],\"ambience\":\"Casual, family-friendly\"}",
+    "timestamp": "2025-11-02T03:00:10.249788"
+  },
+  {
+    "id": 51,
+    "input": "Spice Route",
+    "output": "{\"restaurant\":\"Spice Route\",\"location\":\"321 Bloor St, Toronto, ON M5S 1V8\",\"parking_availability\":\"Available now - 15 spots (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Butter Chicken\",\"Lamb Biryani\",\"Garlic Naan\"],\"cuisines\":[\"Indian\",\"North Indian\"],\"ambience\":\"Vibrant, colorful with traditional decor\"}",
+    "timestamp": "2025-11-02T03:00:10.249823"
+  },
+  {
+    "id": 52,
+    "input": "Taco Fiesta",
+    "output": "{\"restaurant\":\"Taco Fiesta\",\"location\":\"888 Dundas St W, Toronto, ON M6J 1V5\",\"parking_availability\":\"Unavailable at the moment\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Fish Tacos\",\"Carne Asada\",\"Churros\"],\"cuisines\":[\"Mexican\",\"Latin American\"],\"ambience\":\"Lively, colorful with festive atmosphere\"}",
+    "timestamp": "2025-11-02T03:00:10.250001"
+  },
+  {
+    "id": 53,
+    "input": "Dragon Wok",
+    "output": "{\"restaurant\":\"Dragon Wok\",\"location\":\"999 Spadina Ave, Toronto, ON M5S 2J5\",\"parking_availability\":\"Free parking after 6pm (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Peking Duck\",\"Kung Pao Chicken\",\"Dumplings\"],\"cuisines\":[\"Chinese\",\"Cantonese\"],\"ambience\":\"Traditional with red lanterns and wooden decor\"}",
+    "timestamp": "2025-11-02T03:00:10.250037"
+  },
+  {
+    "id": 54,
+    "input": "Dragon Wok",
+    "output": "{\"restaurant\":\"Dragon Wok\",\"location\":\"999 Spadina Ave, Toronto, ON M5S 2J5\",\"parking_availability\":\"Parking garage adjacent (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Peking Duck\",\"Kung Pao Chicken\",\"Dumplings\"],\"cuisines\":[\"Chinese\",\"Cantonese\"],\"ambience\":\"Traditional with red lanterns and wooden decor\"}",
+    "timestamp": "2025-11-02T03:00:10.250066"
+  },
+  {
+    "id": 55,
+    "input": "Mediterranean Breeze",
+    "output": "{\"restaurant\":\"Mediterranean Breeze\",\"location\":\"444 Harbord St, Toronto, ON M6G 1H4\",\"parking_availability\":\"Limited - 3 spots remaining (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Lamb Souvlaki\",\"Greek Salad\",\"Baklava\"],\"cuisines\":[\"Mediterranean\",\"Greek\"],\"ambience\":\"Coastal-inspired with blue and white decor\"}",
+    "timestamp": "2025-11-02T03:00:10.250099"
+  },
+  {
+    "id": 56,
+    "input": "Burger Barn",
+    "output": "{\"restaurant\":\"Burger Barn\",\"location\":\"777 Yonge St, Toronto, ON M4Y 2B6\",\"parking_availability\":\"Full - Street parking 2 blocks away (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Classic Burger\",\"Sweet Potato Fries\",\"Milkshake\"],\"cuisines\":[\"American\",\"Burgers\"],\"ambience\":\"Retro diner style with vinyl booths\"}",
+    "timestamp": "2025-11-02T03:00:10.250145"
+  },
+  {
+    "id": 57,
+    "input": "Pizza Place XYZ",
+    "output": "{\"restaurant\":\"Pizza Place XYZ\",\"location\":\"123 Main St, Toronto, ON M5H 2N2\",\"parking_availability\":\"Parking garage adjacent (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Margherita Pizza\",\"Truffle Fries\",\"Tiramisu\"],\"cuisines\":[\"Italian\"],\"ambience\":\"Casual, family-friendly\"}",
+    "timestamp": "2025-11-02T03:00:10.250173"
+  },
+  {
+    "id": 58,
+    "input": "Le Bistro Français",
+    "output": "{\"restaurant\":\"Le Bistro Français\",\"location\":\"789 King St E, Toronto, ON M5A 1M2\",\"parking_availability\":\"Full - Street parking 2 blocks away (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Coq au Vin\",\"Escargot\",\"Crème Brûlée\"],\"cuisines\":[\"French\"],\"ambience\":\"Elegant, romantic with soft lighting\"}",
+    "timestamp": "2025-11-02T03:00:10.250201"
+  },
+  {
+    "id": 59,
+    "input": "Green Garden Café",
+    "output": "{\"restaurant\":\"Green Garden Café\",\"location\":\"222 College St, Toronto, ON M5T 1R9\",\"parking_availability\":\"Free parking after 6pm (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Quinoa Bowl\",\"Avocado Toast\",\"Acai Bowl\"],\"cuisines\":[\"Vegan\",\"Vegetarian\",\"Healthy\"],\"ambience\":\"Bright, airy with plants and natural wood\"}",
+    "timestamp": "2025-11-02T03:00:10.250231"
+  },
+  {
+    "id": 60,
+    "input": "Mediterranean Breeze",
+    "output": "{\"restaurant\":\"Mediterranean Breeze\",\"location\":\"444 Harbord St, Toronto, ON M6G 1H4\",\"parking_availability\":\"Free parking after 6pm (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Lamb Souvlaki\",\"Greek Salad\",\"Baklava\"],\"cuisines\":[\"Mediterranean\",\"Greek\"],\"ambience\":\"Coastal-inspired with blue and white decor\"}",
+    "timestamp": "2025-11-02T03:00:10.250260"
+  },
+  {
+    "id": 61,
+    "input": "Le Bistro Français",
+    "output": "{\"restaurant\":\"Le Bistro Français\",\"location\":\"789 King St E, Toronto, ON M5A 1M2\",\"parking_availability\":\"Valet parking available (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Coq au Vin\",\"Escargot\",\"Crème Brûlée\"],\"cuisines\":[\"French\"],\"ambience\":\"Elegant, romantic with soft lighting\"}",
+    "timestamp": "2025-11-02T03:00:10.250285"
+  },
+  {
+    "id": 62,
+    "input": "Le Bistro Français",
+    "output": "{\"restaurant\":\"Le Bistro Français\",\"location\":\"789 King St E, Toronto, ON M5A 1M2\",\"parking_availability\":\"Limited - 3 spots remaining (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Coq au Vin\",\"Escargot\",\"Crème Brûlée\"],\"cuisines\":[\"French\"],\"ambience\":\"Elegant, romantic with soft lighting\"}",
+    "timestamp": "2025-11-02T03:00:10.250311"
+  },
+  {
+    "id": 63,
+    "input": "Dragon Wok",
+    "output": "{\"restaurant\":\"Dragon Wok\",\"location\":\"999 Spadina Ave, Toronto, ON M5S 2J5\",\"parking_availability\":\"Unavailable at the moment\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Peking Duck\",\"Kung Pao Chicken\",\"Dumplings\"],\"cuisines\":[\"Chinese\",\"Cantonese\"],\"ambience\":\"Traditional with red lanterns and wooden decor\"}",
+    "timestamp": "2025-11-02T03:00:10.250512"
+  },
+  {
+    "id": 64,
+    "input": "Le Bistro Français",
+    "output": "{\"restaurant\":\"Le Bistro Français\",\"location\":\"789 King St E, Toronto, ON M5A 1M2\",\"parking_availability\":\"Free parking after 6pm (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Coq au Vin\",\"Escargot\",\"Crème Brûlée\"],\"cuisines\":[\"French\"],\"ambience\":\"Elegant, romantic with soft lighting\"}",
+    "timestamp": "2025-11-02T03:00:10.250548"
+  },
+  {
+    "id": 65,
+    "input": "Burger Barn",
+    "output": "{\"restaurant\":\"Burger Barn\",\"location\":\"777 Yonge St, Toronto, ON M4Y 2B6\",\"parking_availability\":\"Valet parking available (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Classic Burger\",\"Sweet Potato Fries\",\"Milkshake\"],\"cuisines\":[\"American\",\"Burgers\"],\"ambience\":\"Retro diner style with vinyl booths\"}",
+    "timestamp": "2025-11-02T03:00:10.250580"
+  },
+  {
+    "id": 66,
+    "input": "Pizza Place XYZ",
+    "output": "{\"restaurant\":\"Pizza Place XYZ\",\"location\":\"123 Main St, Toronto, ON M5H 2N2\",\"parking_availability\":\"Limited - 3 spots remaining (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Margherita Pizza\",\"Truffle Fries\",\"Tiramisu\"],\"cuisines\":[\"Italian\"],\"ambience\":\"Casual, family-friendly\"}",
+    "timestamp": "2025-11-02T03:00:10.250606"
+  },
+  {
+    "id": 67,
+    "input": "Burger Barn",
+    "output": "{\"restaurant\":\"Burger Barn\",\"location\":\"777 Yonge St, Toronto, ON M4Y 2B6\",\"parking_availability\":\"Available now - 8 spots (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Classic Burger\",\"Sweet Potato Fries\",\"Milkshake\"],\"cuisines\":[\"American\",\"Burgers\"],\"ambience\":\"Retro diner style with vinyl booths\"}",
+    "timestamp": "2025-11-02T03:00:10.250645"
+  },
+  {
+    "id": 68,
+    "input": "The Steakhouse",
+    "output": "{\"restaurant\":\"The Steakhouse\",\"location\":\"555 Bay St, Toronto, ON M5G 2C2\",\"parking_availability\":\"Limited - 3 spots remaining (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Ribeye Steak\",\"Lobster Tail\",\"Caesar Salad\"],\"cuisines\":[\"Steakhouse\",\"American\"],\"ambience\":\"Upscale, dimly lit with leather seating\"}",
+    "timestamp": "2025-11-02T03:00:10.250676"
+  },
+  {
+    "id": 69,
+    "input": "Dragon Wok",
+    "output": "{\"restaurant\":\"Dragon Wok\",\"location\":\"999 Spadina Ave, Toronto, ON M5S 2J5\",\"parking_availability\":\"Valet parking available (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Peking Duck\",\"Kung Pao Chicken\",\"Dumplings\"],\"cuisines\":[\"Chinese\",\"Cantonese\"],\"ambience\":\"Traditional with red lanterns and wooden decor\"}",
+    "timestamp": "2025-11-02T03:00:10.250703"
+  },
+  {
+    "id": 70,
+    "input": "Burger Barn",
+    "output": "{\"restaurant\":\"Burger Barn\",\"location\":\"777 Yonge St, Toronto, ON M4Y 2B6\",\"parking_availability\":\"Valet parking available (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Classic Burger\",\"Sweet Potato Fries\",\"Milkshake\"],\"cuisines\":[\"American\",\"Burgers\"],\"ambience\":\"Retro diner style with vinyl booths\"}",
+    "timestamp": "2025-11-02T03:00:10.250732"
+  },
+  {
+    "id": 71,
+    "input": "Mediterranean Breeze",
+    "output": "{\"restaurant\":\"Mediterranean Breeze\",\"location\":\"444 Harbord St, Toronto, ON M6G 1H4\",\"parking_availability\":\"Full - Street parking 2 blocks away (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Lamb Souvlaki\",\"Greek Salad\",\"Baklava\"],\"cuisines\":[\"Mediterranean\",\"Greek\"],\"ambience\":\"Coastal-inspired with blue and white decor\"}",
+    "timestamp": "2025-11-02T03:00:10.250760"
+  },
+  {
+    "id": 72,
+    "input": "The Steakhouse",
+    "output": "{\"restaurant\":\"The Steakhouse\",\"location\":\"555 Bay St, Toronto, ON M5G 2C2\",\"parking_availability\":\"Available now - 15 spots (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Ribeye Steak\",\"Lobster Tail\",\"Caesar Salad\"],\"cuisines\":[\"Steakhouse\",\"American\"],\"ambience\":\"Upscale, dimly lit with leather seating\"}",
+    "timestamp": "2025-11-02T03:00:10.250795"
+  },
+  {
+    "id": 73,
+    "input": "Spice Route",
+    "output": "{\"restaurant\":\"Spice Route\",\"location\":\"321 Bloor St, Toronto, ON M5S 1V8\",\"parking_availability\":\"Limited - 3 spots remaining (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Butter Chicken\",\"Lamb Biryani\",\"Garlic Naan\"],\"cuisines\":[\"Indian\",\"North Indian\"],\"ambience\":\"Vibrant, colorful with traditional decor\"}",
+    "timestamp": "2025-11-02T03:00:10.250824"
+  },
+  {
+    "id": 74,
+    "input": "The Steakhouse",
+    "output": "{\"restaurant\":\"The Steakhouse\",\"location\":\"555 Bay St, Toronto, ON M5G 2C2\",\"parking_availability\":\"Full - Street parking 2 blocks away (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Ribeye Steak\",\"Lobster Tail\",\"Caesar Salad\"],\"cuisines\":[\"Steakhouse\",\"American\"],\"ambience\":\"Upscale, dimly lit with leather seating\"}",
+    "timestamp": "2025-11-02T03:00:10.250850"
+  },
+  {
+    "id": 75,
+    "input": "Dragon Wok",
+    "output": "{\"restaurant\":\"Dragon Wok\",\"location\":\"999 Spadina Ave, Toronto, ON M5S 2J5\",\"parking_availability\":\"Full - Street parking 2 blocks away (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Peking Duck\",\"Kung Pao Chicken\",\"Dumplings\"],\"cuisines\":[\"Chinese\",\"Cantonese\"],\"ambience\":\"Traditional with red lanterns and wooden decor\"}",
+    "timestamp": "2025-11-02T03:00:10.250881"
+  },
+  {
+    "id": 76,
+    "input": "Green Garden Café",
+    "output": "{\"restaurant\":\"Green Garden Café\",\"location\":\"222 College St, Toronto, ON M5T 1R9\",\"parking_availability\":\"Underground parking - $5/hour (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Quinoa Bowl\",\"Avocado Toast\",\"Acai Bowl\"],\"cuisines\":[\"Vegan\",\"Vegetarian\",\"Healthy\"],\"ambience\":\"Bright, airy with plants and natural wood\"}",
+    "timestamp": "2025-11-02T03:00:10.250913"
+  },
+  {
+    "id": 77,
+    "input": "Dragon Wok",
+    "output": "{\"restaurant\":\"Dragon Wok\",\"location\":\"999 Spadina Ave, Toronto, ON M5S 2J5\",\"parking_availability\":\"Free parking after 6pm (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Peking Duck\",\"Kung Pao Chicken\",\"Dumplings\"],\"cuisines\":[\"Chinese\",\"Cantonese\"],\"ambience\":\"Traditional with red lanterns and wooden decor\"}",
+    "timestamp": "2025-11-02T03:00:10.250939"
+  },
+  {
+    "id": 78,
+    "input": "Le Bistro Français",
+    "output": "{\"restaurant\":\"Le Bistro Français\",\"location\":\"789 King St E, Toronto, ON M5A 1M2\",\"parking_availability\":\"Valet parking available (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Coq au Vin\",\"Escargot\",\"Crème Brûlée\"],\"cuisines\":[\"French\"],\"ambience\":\"Elegant, romantic with soft lighting\"}",
+    "timestamp": "2025-11-02T03:00:10.250965"
+  },
+  {
+    "id": 79,
+    "input": "Pizza Place XYZ",
+    "output": "{\"restaurant\":\"Pizza Place XYZ\",\"location\":\"123 Main St, Toronto, ON M5H 2N2\",\"parking_availability\":\"Available now - 8 spots (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Margherita Pizza\",\"Truffle Fries\",\"Tiramisu\"],\"cuisines\":[\"Italian\"],\"ambience\":\"Casual, family-friendly\"}",
+    "timestamp": "2025-11-02T03:00:10.250990"
+  },
+  {
+    "id": 80,
+    "input": "Burger Barn",
+    "output": "{\"restaurant\":\"Burger Barn\",\"location\":\"777 Yonge St, Toronto, ON M4Y 2B6\",\"parking_availability\":\"Available now - 15 spots (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Classic Burger\",\"Sweet Potato Fries\",\"Milkshake\"],\"cuisines\":[\"American\",\"Burgers\"],\"ambience\":\"Retro diner style with vinyl booths\"}",
+    "timestamp": "2025-11-02T03:00:10.251016"
+  },
+  {
+    "id": 81,
+    "input": "Mediterranean Breeze",
+    "output": "{\"restaurant\":\"Mediterranean Breeze\",\"location\":\"444 Harbord St, Toronto, ON M6G 1H4\",\"parking_availability\":\"Available now - 8 spots (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Lamb Souvlaki\",\"Greek Salad\",\"Baklava\"],\"cuisines\":[\"Mediterranean\",\"Greek\"],\"ambience\":\"Coastal-inspired with blue and white decor\"}",
+    "timestamp": "2025-11-02T03:00:10.251042"
+  },
+  {
+    "id": 82,
+    "input": "Mediterranean Breeze",
+    "output": "{\"restaurant\":\"Mediterranean Breeze\",\"location\":\"444 Harbord St, Toronto, ON M6G 1H4\",\"parking_availability\":\"Available now - 15 spots (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Lamb Souvlaki\",\"Greek Salad\",\"Baklava\"],\"cuisines\":[\"Mediterranean\",\"Greek\"],\"ambience\":\"Coastal-inspired with blue and white decor\"}",
+    "timestamp": "2025-11-02T03:00:10.251071"
+  },
+  {
+    "id": 83,
+    "input": "Mediterranean Breeze",
+    "output": "{\"restaurant\":\"Mediterranean Breeze\",\"location\":\"444 Harbord St, Toronto, ON M6G 1H4\",\"parking_availability\":\"Available now - 8 spots (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Lamb Souvlaki\",\"Greek Salad\",\"Baklava\"],\"cuisines\":[\"Mediterranean\",\"Greek\"],\"ambience\":\"Coastal-inspired with blue and white decor\"}",
+    "timestamp": "2025-11-02T03:00:10.251098"
+  },
+  {
+    "id": 84,
+    "input": "Sushi Haven",
+    "output": "{\"restaurant\":\"Sushi Haven\",\"location\":\"456 Queen St W, Toronto, ON M5V 2A8\",\"parking_availability\":\"Valet parking available (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Dragon Roll\",\"Salmon Sashimi\",\"Miso Soup\"],\"cuisines\":[\"Japanese\",\"Sushi\"],\"ambience\":\"Modern, minimalist with zen aesthetics\"}",
+    "timestamp": "2025-11-02T03:00:10.251122"
+  },
+  {
+    "id": 85,
+    "input": "Pizza Place XYZ",
+    "output": "{\"restaurant\":\"Pizza Place XYZ\",\"location\":\"123 Main St, Toronto, ON M5H 2N2\",\"parking_availability\":\"Valet parking available (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Margherita Pizza\",\"Truffle Fries\",\"Tiramisu\"],\"cuisines\":[\"Italian\"],\"ambience\":\"Casual, family-friendly\"}",
+    "timestamp": "2025-11-02T03:00:10.251145"
+  },
+  {
+    "id": 86,
+    "input": "Mediterranean Breeze",
+    "output": "{\"restaurant\":\"Mediterranean Breeze\",\"location\":\"444 Harbord St, Toronto, ON M6G 1H4\",\"parking_availability\":\"Parking garage adjacent (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Lamb Souvlaki\",\"Greek Salad\",\"Baklava\"],\"cuisines\":[\"Mediterranean\",\"Greek\"],\"ambience\":\"Coastal-inspired with blue and white decor\"}",
+    "timestamp": "2025-11-02T03:00:10.251171"
+  },
+  {
+    "id": 87,
+    "input": "Le Bistro Français",
+    "output": "{\"restaurant\":\"Le Bistro Français\",\"location\":\"789 King St E, Toronto, ON M5A 1M2\",\"parking_availability\":\"Limited - 3 spots remaining (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Coq au Vin\",\"Escargot\",\"Crème Brûlée\"],\"cuisines\":[\"French\"],\"ambience\":\"Elegant, romantic with soft lighting\"}",
+    "timestamp": "2025-11-02T03:00:10.251195"
+  },
+  {
+    "id": 88,
+    "input": "Taco Fiesta",
+    "output": "{\"restaurant\":\"Taco Fiesta\",\"location\":\"888 Dundas St W, Toronto, ON M6J 1V5\",\"parking_availability\":\"Available now - 15 spots (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Fish Tacos\",\"Carne Asada\",\"Churros\"],\"cuisines\":[\"Mexican\",\"Latin American\"],\"ambience\":\"Lively, colorful with festive atmosphere\"}",
+    "timestamp": "2025-11-02T03:00:10.251221"
+  },
+  {
+    "id": 89,
+    "input": "Green Garden Café",
+    "output": "{\"restaurant\":\"Green Garden Café\",\"location\":\"222 College St, Toronto, ON M5T 1R9\",\"parking_availability\":\"Free parking after 6pm (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Quinoa Bowl\",\"Avocado Toast\",\"Acai Bowl\"],\"cuisines\":[\"Vegan\",\"Vegetarian\",\"Healthy\"],\"ambience\":\"Bright, airy with plants and natural wood\"}",
+    "timestamp": "2025-11-02T03:00:10.251248"
+  },
+  {
+    "id": 90,
+    "input": "The Steakhouse",
+    "output": "{\"restaurant\":\"The Steakhouse\",\"location\":\"555 Bay St, Toronto, ON M5G 2C2\",\"parking_availability\":\"Valet parking available (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Ribeye Steak\",\"Lobster Tail\",\"Caesar Salad\"],\"cuisines\":[\"Steakhouse\",\"American\"],\"ambience\":\"Upscale, dimly lit with leather seating\"}",
+    "timestamp": "2025-11-02T03:00:10.251273"
+  },
+  {
+    "id": 91,
+    "input": "Burger Barn",
+    "output": "{\"restaurant\":\"Burger Barn\",\"location\":\"777 Yonge St, Toronto, ON M4Y 2B6\",\"parking_availability\":\"Available now - 8 spots (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Classic Burger\",\"Sweet Potato Fries\",\"Milkshake\"],\"cuisines\":[\"American\",\"Burgers\"],\"ambience\":\"Retro diner style with vinyl booths\"}",
+    "timestamp": "2025-11-02T03:00:10.251299"
+  },
+  {
+    "id": 92,
+    "input": "Sushi Haven",
+    "output": "{\"restaurant\":\"Sushi Haven\",\"location\":\"456 Queen St W, Toronto, ON M5V 2A8\",\"parking_availability\":\"Underground parking - $5/hour (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Dragon Roll\",\"Salmon Sashimi\",\"Miso Soup\"],\"cuisines\":[\"Japanese\",\"Sushi\"],\"ambience\":\"Modern, minimalist with zen aesthetics\"}",
+    "timestamp": "2025-11-02T03:00:10.251323"
+  },
+  {
+    "id": 93,
+    "input": "Spice Route",
+    "output": "{\"restaurant\":\"Spice Route\",\"location\":\"321 Bloor St, Toronto, ON M5S 1V8\",\"parking_availability\":\"Limited - 3 spots remaining (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Butter Chicken\",\"Lamb Biryani\",\"Garlic Naan\"],\"cuisines\":[\"Indian\",\"North Indian\"],\"ambience\":\"Vibrant, colorful with traditional decor\"}",
+    "timestamp": "2025-11-02T03:00:10.251346"
+  },
+  {
+    "id": 94,
+    "input": "Sushi Haven",
+    "output": "{\"restaurant\":\"Sushi Haven\",\"location\":\"456 Queen St W, Toronto, ON M5V 2A8\",\"parking_availability\":\"Limited - 3 spots remaining (live)\",\"availability_restaurant\":\"Walk-ins welcome (live)\",\"top_3_dishes\":[\"Dragon Roll\",\"Salmon Sashimi\",\"Miso Soup\"],\"cuisines\":[\"Japanese\",\"Sushi\"],\"ambience\":\"Modern, minimalist with zen aesthetics\"}",
+    "timestamp": "2025-11-02T03:00:10.251375"
+  },
+  {
+    "id": 95,
+    "input": "Green Garden Café",
+    "output": "{\"restaurant\":\"Green Garden Café\",\"location\":\"222 College St, Toronto, ON M5T 1R9\",\"parking_availability\":\"Limited - 3 spots remaining (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Quinoa Bowl\",\"Avocado Toast\",\"Acai Bowl\"],\"cuisines\":[\"Vegan\",\"Vegetarian\",\"Healthy\"],\"ambience\":\"Bright, airy with plants and natural wood\"}",
+    "timestamp": "2025-11-02T03:00:10.251403"
+  },
+  {
+    "id": 96,
+    "input": "Pizza Place XYZ",
+    "output": "{\"restaurant\":\"Pizza Place XYZ\",\"location\":\"123 Main St, Toronto, ON M5H 2N2\",\"parking_availability\":\"Limited - 3 spots remaining (live)\",\"availability_restaurant\":\"Unavailable at the moment\",\"top_3_dishes\":[\"Margherita Pizza\",\"Truffle Fries\",\"Tiramisu\"],\"cuisines\":[\"Italian\"],\"ambience\":\"Casual, family-friendly\"}",
+    "timestamp": "2025-11-02T03:00:10.251582"
+  },
+  {
+    "id": 97,
+    "input": "Burger Barn",
+    "output": "{\"restaurant\":\"Burger Barn\",\"location\":\"777 Yonge St, Toronto, ON M4Y 2B6\",\"parking_availability\":\"Underground parking - $5/hour (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Classic Burger\",\"Sweet Potato Fries\",\"Milkshake\"],\"cuisines\":[\"American\",\"Burgers\"],\"ambience\":\"Retro diner style with vinyl booths\"}",
+    "timestamp": "2025-11-02T03:00:10.251625"
+  },
+  {
+    "id": 98,
+    "input": "Le Bistro Français",
+    "output": "{\"restaurant\":\"Le Bistro Français\",\"location\":\"789 King St E, Toronto, ON M5A 1M2\",\"parking_availability\":\"Available now - 15 spots (live)\",\"availability_restaurant\":\"Unavailable at the moment\",\"top_3_dishes\":[\"Coq au Vin\",\"Escargot\",\"Crème Brûlée\"],\"cuisines\":[\"French\"],\"ambience\":\"Elegant, romantic with soft lighting\"}",
+    "timestamp": "2025-11-02T03:00:10.251780"
+  },
+  {
+    "id": 99,
+    "input": "Le Bistro Français",
+    "output": "{\"restaurant\":\"Le Bistro Français\",\"location\":\"789 King St E, Toronto, ON M5A 1M2\",\"parking_availability\":\"Limited - 3 spots remaining (live)\",\"availability_restaurant\":\"Book now for dinner (live)\",\"top_3_dishes\":[\"Coq au Vin\",\"Escargot\",\"Crème Brûlée\"],\"cuisines\":[\"French\"],\"ambience\":\"Elegant, romantic with soft lighting\"}",
+    "timestamp": "2025-11-02T03:00:10.251819"
+  },
+  {
+    "id": 100,
+    "input": "The Steakhouse",
+    "output": "{\"restaurant\":\"The Steakhouse\",\"location\":\"555 Bay St, Toronto, ON M5G 2C2\",\"parking_availability\":\"Valet parking available (live)\",\"availability_restaurant\":\"Reservations available for lunch (live)\",\"top_3_dishes\":[\"Ribeye Steak\",\"Lobster Tail\",\"Caesar Salad\"],\"cuisines\":[\"Steakhouse\",\"American\"],\"ambience\":\"Upscale, dimly lit with leather seating\"}",
+    "timestamp": "2025-11-02T03:00:10.251848"
+  }
+]
